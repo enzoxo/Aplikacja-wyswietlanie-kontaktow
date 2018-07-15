@@ -1,0 +1,30 @@
+.contactForm{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 30px 10px;
+}
+
+.contactsList{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.contactItem {
+	padding: 10px;
+}
+
+.contactItem p,
+.contactItem a {
+	display: block;
+	text-align: center;
+} 
+
+.contactImage{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100px;
+	height: 100px;
+}

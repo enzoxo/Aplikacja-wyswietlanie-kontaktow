@@ -6,9 +6,9 @@ var Contact= React.createClass({
 	render: function() {
 		return (
 			React.createElement('div', {className: 'contactItem'},
-				Rect.createElement('img', {
+				React.createElement('img', {
 					className: 'contactImage',
-					src: 'http://icons.veryicon.com/ico/System/100%20Flat%20Vol.%202/contacts.ico'
+					src: 'http://icons.iconarchive.com/icons/graphicloads/100-flat-2/256/contacts-icon.png'
 				}),
 				React.createElement('p', {className: 'contactLabel'}, 'Imię: ' + this.props.item.firstName),
 				React.createElement('p', {className: 'contactLabel'}, 'Nazwisko: ' + this.props.item.lastName),

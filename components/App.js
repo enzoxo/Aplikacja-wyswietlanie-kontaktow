@@ -10,14 +10,14 @@ var contacts = [
 	{
 		id: 2,
 		firstName: 'Adam',
-		seconsName: 'Kowalski',
+		lastName: 'Kowalski',
 		email: 'jk.kowalski@example.com',
 	},
 
 	{
 		id: 3,
 		firstName: 'Kamil',
-		seconsName: 'Baszak',
+		lastName: 'Baszak',
 		email: 'kbaszak@example.com',
 		}
 ];
